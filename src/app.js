@@ -38,7 +38,8 @@ let dateElement = document.querySelector("#date");
 
 
 let apiKey = "dff8bb45a54a7942efbd8b90e1cf34fc";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=New York&appid=${apiKey}&units=metric`;
+let city = "New York"
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 
 
