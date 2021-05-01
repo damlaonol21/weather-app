@@ -148,4 +148,4 @@ form.addEventListener("submit", handleSubmit);
 
 
 
-search("New York");
+search("Valencia");
